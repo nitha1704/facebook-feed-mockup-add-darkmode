@@ -1,0 +1,86 @@
+@import url("../fonts/font-lists.css");
+
+
+// Max
+@media (max-width: 1100px) {
+  .left-sidebar {
+    display: none;
+  }
+  .mSdSL {
+    padding: 0 15px !important;
+  }
+  .mSdSL .story-section {
+    max-width: 100% !important;
+  }
+  .mSdSL .post-new-feed-section {
+    max-width: 100% !important;
+  }
+  .mSdSL .create-room {
+    max-width: 100% !important;
+  }
+  .mSdSL .new-feed {
+    max-width: 100% !important;
+  }
+  .drHfN .create-story .create-story-section1 img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 898px) {
+  .right-sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .app {
+    min-width: 450px;
+  }
+}
+
+// Min
+@media (min-width: 1281px) {
+  .sidebar {
+    min-width: 280px;
+    max-width: 360px;
+    flex-basis: 100%;
+  }
+}
+
+@media (min-height: 700px) {
+  .bHGzLf .navbar-section2 {
+    margin-right: 20% !important;
+  }
+  .bHGzLf .navbar-section2 svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .bHGzLf .navbar-section2 .icon {
+    margin-right: 28px !important;
+  }
+  .mSdSL {
+    padding: 0 15px !important;
+  }
+  .mSdSL .story-section {
+    max-width: 680px !important;
+  }
+  .mSdSL .post-new-feed-section {
+    max-width: 680px !important;
+  }
+  .mSdSL .create-room {
+    max-width: 680px !important;
+  }
+  .mSdSL .new-feed {
+    max-width: 680px !important;
+  }
+  .drHfN .create-story .create-story-section1 img {
+    width: 100% !important;
+  }
+}
+
+// Max and Min
+@media (max-height: 700px) and (min-width: 1400px) {
+  .bHGzLf .navbar-section2 .icon {
+    margin-right: 40px !important;
+  }
+}

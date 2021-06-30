@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "icon": "./images/shortcut-images/user_thumbnail.jpg",
+    "shortcut_name": "Wake Up"
+  },
+  {
+    "id": "2",
+    "icon": "./images/shortcut-images/covid19.png",
+    "shortcut_name": "COVID-19 Information Center"
+  },
+  {
+    "id": "3",
+    "icon": "./images/shortcut-images/find-friends.png",
+    "shortcut_name": "Find Friends"
+  },
+  {
+    "id": "4",
+    "icon": "./images/shortcut-images/saved.png",
+    "shortcut_name": "Saved"
+  },
+  {
+    "id": "5",
+    "icon": "./images/shortcut-images/groups.png",
+    "shortcut_name": "Groups"
+  },
+  {
+    "id": "6",
+    "icon": "./images/shortcut-images/marketplace.png",
+    "shortcut_name": "Marketplace"
+  },
+  {
+    "id": "7",
+    "icon": "./images/shortcut-images/watch.png",
+    "shortcut_name": "Watch"
+  },
+  {
+    "id": "8",
+    "icon": "./images/shortcut-images/events.png",
+    "shortcut_name": "Events"
+  },
+  {
+    "id": "9",
+    "icon": "./images/shortcut-images/memories.png",
+    "shortcut_name": "Memories"
+  },
+  {
+    "id": "10",
+    "icon": "./images/shortcut-images/jobs.png",
+    "shortcut_name": "Jobs"
+  },
+  {
+    "id": "11",
+    "icon": "./images/shortcut-images/pages.png",
+    "shortcut_name": "Pages"
+  }
+]

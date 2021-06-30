@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "icon": "./images/shortcut-images/group1.jpg",
+    "shortcut_name": "SMW & ROV"
+  },
+  {
+    "id": "2",
+    "icon": "./images/shortcut-images/group2.jpg",
+    "shortcut_name": "Heroes of the Storm Thailand Community"
+  }
+]

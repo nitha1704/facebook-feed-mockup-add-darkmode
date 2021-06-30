@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "story_image": "./images/story/7.jpg",
+    "user_thumbnail": "./images/user-thumbnail/7.jpg",
+    "user_name": "Phiangmani Bovy Prasertsuk"
+  },
+  {
+    "id": "2",
+    "story_image": "./images/story/8.jpg",
+    "user_thumbnail": "./images/user-thumbnail/8.jpg",
+    "user_name": "Jassavut Pongprot"
+  },
+  {
+    "id": "3",
+    "story_image": "./images/story/11.jpg",
+    "user_thumbnail": "./images/user-thumbnail/9.jpg",
+    "user_name": "Isara Reodacha"
+  },
+  {
+    "id": "4",
+    "story_image": "./images/story/12.jpg",
+    "user_thumbnail": "./images/user-thumbnail/11.jpg",
+    "user_name": "BRING ME THE HORIZON"
+  }
+]
