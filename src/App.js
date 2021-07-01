@@ -3,11 +3,14 @@ import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
 
 // CSS
+import './css/style.css'
+import { UseGlobalContext2 } from "./context/GlobalContext";
+import { lightTheme, darkTheme, GlobalStyle } from "./css/theme";
+
 import Home from "./pages/Home.js";
 import Navbar from "./components/Navbar";
 
-import {UseGlobalContext2} from './context/GlobalContext';
-import {lightTheme, darkTheme, GlobalStyle} from './css/theme';
+
 
 
 function App() {
