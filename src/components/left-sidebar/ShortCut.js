@@ -101,6 +101,7 @@ const ShortCutWrapper = styled.div`
   position: sticky;
   top: 0;
   height: 97vh;
+  padding-top: 70px;
   overflow-y: auto;
 
   border-color: transparent;
@@ -112,6 +113,7 @@ const ShortCutWrapper = styled.div`
   ::-webkit-scrollbar {
     width: 0.5em;
     height: 0.5em;
+    margin: 505px;
   }
   ::-webkit-scrollbar-thumb {
     border-right-style: inset;
@@ -119,9 +121,11 @@ const ShortCutWrapper = styled.div`
     border-right-width: calc(100vw + 100vh);
     border-radius: 10px;
   }
+  ::-webkit-scrollbar-track {
+    margin-top: 70px;
+  }
 
   .shortcut-section1 {
-    padding-top: 70px;
   }
   .shortcut-item {
     transition: 0.1s ease;

@@ -57,6 +57,9 @@ const RightSidebar = styled.div`
       border-right-width: 100vh;
       border-radius: 10px;
     }
+    ::-webkit-scrollbar-track {
+      margin-top:70px;
+    }
   }
 `;
 export default RightSideBarMain;
