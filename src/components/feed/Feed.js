@@ -8,25 +8,26 @@ import NewPost from "./NewPost";
 const Feed = () => {
   return (
     <FeedWrapper className="feed-wrapper">
-      <section className="story-section">
-        <Story />
-      </section>
-      <section className="post-new-feed-section">
-        <PostNewFeed />
-      </section>
-      <section className="create-room">
-        <CreateRoom />
-      </section>
-      <section className="new-feed">
-        <NewPost />
-      </section>
+      <div className="feed-container">
+        <section className="story-section">
+          <Story />
+        </section>
+        <section className="post-new-feed-section">
+          <PostNewFeed />
+        </section>
+        <section className="create-room">
+          <CreateRoom />
+        </section>
+        <section className="new-feed">
+          <NewPost />
+        </section>
+      </div>
     </FeedWrapper>
   );
 };
 const FeedWrapper = styled.div`
-  margin-top: 10px;
   width: 100%;
-  padding: 0 50px;
+  padding: 80px 32px 0 32px;
   .story-section {
     display: flex;
     justify-content: center;
@@ -48,7 +49,7 @@ const FeedWrapper = styled.div`
   }
 
   @media (max-width: 610px) {
-    padding: 0;
+    padding: 80px 0px 0 0px;
     .story-section {
       min-width: auto;
     }

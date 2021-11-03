@@ -200,6 +200,14 @@ const StoryWrapper = styled.div`
       filter: ${(props) => props.theme.allStoryButton};
     }
   }
+  @media (max-width: 1150px) {
+    .wrap-story {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .wrap-story .item-story:last-child {
+      display: none;
+    }
+  }
 
   @media (max-width: 610px) {
     .friend-story:last-child {

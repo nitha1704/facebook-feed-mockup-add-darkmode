@@ -34,7 +34,12 @@ const WrapHome = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  padding: 70px 10px 10px 10px;
+  padding: 0px 10px 10px 10px;
+  width: 100%;
+  .sidebar {
+    min-width: 280px;
+    max-width: 360px;
+  }
 `;
 
 export default Home;

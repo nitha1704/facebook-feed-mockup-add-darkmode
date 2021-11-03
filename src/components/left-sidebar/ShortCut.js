@@ -96,6 +96,33 @@ const ShortCut = () => {
 };
 
 const ShortCutWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  height: 97vh;
+  overflow-y: auto;
+
+  border-color: transparent;
+  transition: border-color 0.2s linear;
+  &:hover {
+    border-color: #5e5e5f;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-right-style: inset;
+    border-right-color: inherit;
+    border-right-width: calc(100vw + 100vh);
+    border-radius: 10px;
+  }
+
+  .shortcut-section1 {
+    padding-top: 70px;
+  }
   .shortcut-item {
     transition: 0.1s ease;
     padding: 8px 5px;
@@ -174,6 +201,7 @@ const ShortCutWrapper = styled.div`
   }
 
   .shortcut-section2 {
+    flex-grow: 1;
     .title {
       display: flex;
       justify-content: space-between;
