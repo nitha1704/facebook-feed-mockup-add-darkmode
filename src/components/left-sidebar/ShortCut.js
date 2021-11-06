@@ -113,7 +113,6 @@ const ShortCutWrapper = styled.div`
   ::-webkit-scrollbar {
     width: 0.5em;
     height: 0.5em;
-    margin: 505px;
   }
   ::-webkit-scrollbar-thumb {
     border-right-style: inset;
